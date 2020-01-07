@@ -1,0 +1,24 @@
+body{
+    background: red;
+}
+header{
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:2em;
+    font-size:4em;
+    text-align: center;
+}
+h3{
+    font-size:2em;
+    text-align: center;
+}
+.wrapper{
+    width:85%;
+    margin: auto;
+}
+.wrapper img{
+    display: block;
+    margin:auto;
+    width:350px;
+}
