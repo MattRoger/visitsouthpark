@@ -36,7 +36,13 @@ nav a{
 nav a:visited{
     color:#F7FFF7
 }
+nav a:link{
+    color:#F7FFF7
+}
 nav a:hover{
+    color:#F7FE72;
+}
+nav a:active{
     color:#F7FE72;
 }
 p h3{
@@ -69,7 +75,7 @@ strong{
 }
 .sectionHead{
     font-size: 1.25em;
-    font-family: 'Staatliches', cursive;
+    font-family: 'Staatliches', regular;
     font-weight: 600;
     text-align: center;
     padding-top:.25em;
