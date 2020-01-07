@@ -1,5 +1,6 @@
 body{
     background: #9BDCFF;
+    position: relative;
 }
 header{
     background-image: url("../images/header.jpg");
@@ -13,6 +14,30 @@ header{
     text-align: center;
     padding:2em;
     
+}
+nav{
+    background:#4EA5D9;
+    color:#F7FFF7;
+    border:2px solid #F7FE72;
+    font-size:1.25em;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    padding:.5em;
+    position:fixed;    
+    margin:auto;
+    top:0%;
+    width:100%;
+    
+}
+nav a{
+    padding:.5em;
+  
+}
+nav a:visited{
+    color:#F7FFF7
+}
+nav a:hover{
+    color:#F7FE72;
 }
 p h3{
     color:#0C252D;
@@ -64,6 +89,10 @@ strong{
 @media screen and (min-width: 766px) {
     header {
       font-size:4.5em;
+    }
+    nav{
+        padding:.75em;
+        font-size:1.5em;
     }
     .sectionHead{
         font-size: 2em;
