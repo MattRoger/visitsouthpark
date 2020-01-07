@@ -83,17 +83,22 @@ strong{
     }
   }
 
+  
+
   @media screen and (min-width: 1080px) {
       header{
           font-size:6em;
       }
+      h3{
+          font-size:1.25em;
+      }
       .container p{
-        width:350px;
+        width:275px;
         margin:auto;
         margin-bottom:1.5em;
     }
       .wrapper img{
-        width:350px;
+        width:275px;
         margin:auto;
         margin-bottom:1.5em;
     }
@@ -107,7 +112,18 @@ strong{
         margin:.5em;
     }
     
-    .about{
-        
+    .about p{
+        width:75%;
+    }
+  }
+  @media screen and (min-width: 1435px) {
+    .container p{
+        width:350px;      
+    }
+      .wrapper img{
+        width:350px;       
+    }
+    h3{
+        font-size:2em;
     }
   }
