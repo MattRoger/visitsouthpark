@@ -14,5 +14,6 @@ Love, css and html
 Thanks for South Park for giving me the inspiration
 
 :octocat: @MattRoger
+[LinkedIn](www.linkedin.com/in/matt-roger)
 
 #### Copywrite Matt Roger
